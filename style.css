@@ -1,0 +1,83 @@
+* {
+  background-color: rgb(233, 170, 214);
+}
+
+
+.avatar {
+  width: 200px; /* indica el ancho de un elemento */
+  height: 200px; /* indica el alto */ 
+  border-radius: 30%; /* crea un borde redondo indicado en % , para lograr un circulo */
+  display: block; /* Le dice a cada elemento como debe comportarse como bloque o lineal*/
+  margin: 0 auto; 
+  border: 10px solid rgb(255, 255, 255);
+}
+
+.name {
+  text-align: center; /* alinea el texto de forma centrada */ 
+  font-size: 45px;/* tamaño de la fuente */ 
+  color: rgb(139, 110, 145);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.links {
+  padding-top: 20px;
+  width: 30%;
+  margin: 0 auto; /*  Centra un elemento de tipo bloque */
+}
+
+a {
+  padding: 5px;
+  height: 30px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: fantasy;
+  border-radius: 10px;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.instagram {
+  background-color: rgba(225, 48, 107, 0.486);
+  margin: 0 auto; 
+  border: 3px solid rgb(255, 255, 255);
+  
+}
+.instagram:hover {
+  background-color: rgb(225, 48, 108);
+  position: relative;
+  bottom: 3px;
+}
+
+.facebook {
+  background-color: rgba(66, 103, 178, 0.596);
+  margin: 0 auto; 
+  border: 3px solid rgb(255, 255, 255);
+}
+.facebook:hover {
+  background-color: rgb(66, 103, 178);
+  position: relative;
+  bottom: 1px;
+}
+
+.linkedin {
+  background-color: rgba(0, 118, 181, 0.596);
+  margin: 0 auto; 
+  border: 3px solid rgb(255, 255, 255);
+}
+.linkedin:hover {
+  background-color: rgb(0, 119, 181);
+  position: relative;
+  bottom: 1px;
+}
+.whatsApp {
+  background-color: rgba(18, 140, 99, 0.63);
+  margin: 0 auto; 
+  border: 3px solid rgb(255, 255, 255);
+}
+
+.whatsApp:hover {
+  background-color: rgb(18, 140, 99);
+  position: relative;
+  bottom: 1px;
+}
